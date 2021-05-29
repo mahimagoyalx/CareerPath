@@ -3,20 +3,16 @@ html {
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-}
+@media (min-width: 992px) {}
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-}
+@media (max-width: 575.98px) {}
 
 /* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
-}
+@media (max-width: 767.98px) {}
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-}
+@media (max-width: 991.98px) {}
 
 /* Media Queries End*/
 
@@ -25,30 +21,37 @@ html {
   padding: 1rem;
 }
 
+body {
+  background-color: rgb(243, 240, 234);
+}
+
 #about_us {
   padding-left: 50px;
   padding-right: 50px;
   position: relative;
   padding-top: 1px;
-  background-color: rgb(243, 240, 234);
+  /* background-color: rgb(243, 240, 234); */
   max-height: max-content;
   padding-bottom: 4rem;
   text-align: justify;
 }
-.image-container{
+
+.image-container {
   vertical-align: auto;
   padding-top: 90px;
   padding-bottom: 30px;
 
 }
+
 .about {
   /* padding-top: 2rem; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .about_heading {
-  font-family: "Alegreya", serif;
+  font-family: 'Dancing Script', cursive;
   color: #af1d70be;
   display: flex;
   justify-content: center;
@@ -56,7 +59,7 @@ html {
 
 .about_para {
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,29 +68,29 @@ html {
 
 .about_img {
   margin: auto;
-
 }
 
-
 #contributors {
-  padding-top: 40px;
-  
+  /* padding-top: 40px; */
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
 }
+
 .contri_heading h1 {
   margin: auto;
-  font-family: "Alegreya", serif;
-  font-size: 2.4rem;
-  padding-left: 20px;
+  font-family: 'Dancing Script', cursive;
+  color: #af1d70be;
+  /* font-size: 2.4rem; */
+  /* padding-left: 20px; */
 }
 
 .contri_names {
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
