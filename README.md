@@ -5,10 +5,10 @@
 Uplift Project is a global-remote initiative for people worldwide who want to talk about something fruitful. This Project is a part of HTML-CSS-JS Team 04.
 
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://www.girlscript.tech/programs/uplift/index.html">
     <img src="https://www.girlscript.tech/programs/uplift/images/uplift_logo.png" alt="Logo">
-  </a>
+  </a> -->
 
 
 ## 📌 Introduction
