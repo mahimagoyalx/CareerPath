@@ -9,20 +9,22 @@
     <link rel="manifest" href="../favicon_io/site.webmanifest">
 
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="footer, address, phone, icons" />
-    
-    <link rel="stylesheet" href="h&f.css" />
-    <link rel="stylesheet" href="css/about.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="h&f.css" />
+    
+	<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     
     <!--Font-Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
@@ -35,103 +37,102 @@
     $("#footer").load("footer.html"); 
     });
     </script> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   </head>
 
   <body>
     <script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "8c0ad474-4155-4c9a-8540-9209769c80a4", // The ID of this integration.
-      region: "au-syd", // The region your integration is hosted in.
-      serviceInstanceID: "3475eb31-4727-4d23-9308-0176e0eef110", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "8c0ad474-4155-4c9a-8540-9209769c80a4", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "3475eb31-4727-4d23-9308-0176e0eef110", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+            };
+        setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+            document.head.appendChild(t);
+        });
+    </script>
     <!-- Header -->
     <div id="header"></div>
-    <!--About us landing page-->
-    <section id="about_us">
-      <div class="container about">
-        <div class="row">
-          <div class="about_heading col-12">
-            <h1 class="display-4 mt-5">About us</h1>
-            <hr />
-          </div>
-          <div class="row">
-            <div class="col-lg-6 col-xl-6 about_para">
-              <p>
-                Most of the time students will be willing to learn new skills like web development, android development, etc but they lack proper guidance and they find it really difficult to start with the tech stack and gradually start lacking interest in it.
-                Career Path is a website developed by the students as a part of the Uplift Project to tackle this problem. In this website, we provide a  proper path to excel in a particular tech stack so that the students can have a smooth learning journey.
-                We also have separate sections for interview experiences, recent internship opportunities, and blogs. If a student faces a problem they can always reach out to us in the chat section.
-              </p>
-            </div>
-            <div class="col-lg-4 col-xl-4 about_img">
-              <div class="image-container">
-                <img
-                  src="image/about_img.svg"
-                  class="img-fluid"
-                  alt="Responsive image"
-                />
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of About us landing page section-->
+                <div class="heading about-heading">
+                    <p>About us</p>
+                </div>  
 
-    <section id="contributors">
-      <div class="container contributor">
-        <div class="row">
-          <div class=" contri_heading col-12">
-            <h1 class="display-4 mt-5" >
-              Contributors
-            </h1>
-          </div>
-          <div class="row">
-            <div class="contri_names col-lg-6">
-              <div class="image2-container">
-                <img src="image/Contributor.png" class="img-fluid" alt="Responsive image" />
-              </div>
-            </div>
-
-            <div class="contri_names col-12 col-lg-3">
-              <ul>
-                <li>Mahima Goyal(P)</li>
-                <li>Ishita Singh(P)</li>
-                <li>Jyoti Balodhi(P)</li>
-                <li>Irshad Kamil(P)</li>
-              </ul>
-            </div>
-            <div class="contri_names col-12 col-lg-3">
-              <ul>
-                <li>Harsha Vardhan(P)</li>
-                <li>Kashika Jain(P)</li>
-                <li>Vanshika Jain(P)</li>
-                <li>Hari Sapna Nair(P)</li>
-              </ul>
-            </div>
+    <section id="about">
+        <div class="container about">
+            
+            <div class="row about-para">
+                <div class="col-lg-6 col-xl-6">
+                    <p>
+                        Most of the time students will be willing to learn new skills like web development, android development, etc but they lack proper guidance and they find it really difficult to start with the tech stack and gradually start lacking interest in it.
+                        Career Path is a website developed by the students as a part of the Uplift Project to tackle this problem. In this website, we provide a  proper path to excel in a particular tech stack so that the students can have a smooth learning journey.
+                        We also have separate sections for interview experiences, recent internship opportunities, and blogs. If a student faces a problem they can always reach out to us in the chat section.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-xl-6 about-img">
+                    <div class="image-container">
+                        <img src="image/about_img.svg" class="img-fluid" alt="Responsive image"/>
+                    </div>
+                </div>
           </div>
         </div>
     </section>
+                <div class="heading">
+                    <p>Contributors</p>
+                </div> 
+    <section id="contri">
+        <div class="container contributor">
+           
+            <div class="card">
+                <div class="content">
+                    <div class="img-bx">
+                        <img src="image/mahima.jpg" alt="Ishita">
+                    </div>
+                    <div class="content-bx">
+                        <h3>Mahima Goyal</h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li>
+                        <a href="https://www.linkedin.com/in/mahimagoyal-/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mahimagoyalx"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/mahimagoyalx"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="img-bx">
+                        <img src="image/ishita.jpeg" alt="Ishita">
+                    </div>
+                    <div class="content-bx">
+                        <h3>Ishita Singh</h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li>
+                        <a href="https://www.linkedin.com/in/ishitas0301/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ishi0301"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ishitas0301"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </section>
+
 
     <!-- <footer> -->
     <div id="footer"></div> 
-
-    <!-- </footer> -->
-    
-
-    <!--js script-->
-    <script src="js/main.js"></script>
-    <!--jquery-->
-    <script src="js/jquery-3.5.1.js"></script>
-    <!--bootstrap js-->
-    <script src="js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>
