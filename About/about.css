@@ -10,8 +10,8 @@ body {
 }
 
 #about {
-    padding-left: 80px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 20px;
     position: relative;
     padding-top: 1px;
     max-height: max-content;
@@ -20,9 +20,18 @@ body {
 
 .image-container {
     vertical-align: auto;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 30px;
-    margin-left: 90px;
+    margin-left: 50px;
+}
+
+/* .about-img {
+    margin: auto;
+} */
+
+.img-fluid {
+    height: 85%;
+    width: 85%;
 }
 
 .about {
@@ -49,15 +58,6 @@ body {
     align-items: center;
     justify-content: center;
     padding-right: 50px;
-}
-
-.about-img {
-    margin: auto;
-}
-
-.img-fluid {
-    height: 90%;
-    width: 90%;
 }
 
 #contri-heading {
@@ -154,4 +154,16 @@ body {
 .contributor .card .sci li a {
     color: black;
     font-size: 24px;
+}
+
+#linkedin:hover {
+    color: #0E76A8;
+}
+
+#github:hover {
+    color: #171515;
+}
+
+#twitter:hover {
+    color: #1DA1F2;
 }
