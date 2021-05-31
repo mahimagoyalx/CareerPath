@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.home-button {
+  margin-top: 7px;
+  margin-left: 7px;
+  padding: 15px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-block {
+  text-align: center;
+  font-size: 10rem;
+  font-weight: bold;
+  color: rgb(143, 143, 143);
+  padding-top: 50px;
+}
+
+.fof-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error {
+  animation: colorchange 3s infinite alternate;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@keyframes colorchange {
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: black;
+  }
+}

@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(#d3dbff, #8675a9);
+}
+
+.tm {
+  padding-top: 45px;
+  padding-bottom: 30px;
+  font-size: 7rem;
+  color: black;
+  text-align: Center;
+  font-family: "Dancing Script", cursive;
+}
+
+@media only screen and (max-width: 660px) {
+  .tm {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tm {
+    font-size: 5rem;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .tm2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.tm1 {
+  padding-bottom: 50px;
+  font-size: 1.8rem;
+  color: rgb(70, 69, 69);
+  text-align: Center;
+  font-family: "Abel", sans-serif;
+}
+
+.tm2 {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5rem;
+  color: rgb(70, 69, 69);
+  text-align: Center;
+  font-family: "Abel", sans-serif;
+}
+
+.welcome-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
