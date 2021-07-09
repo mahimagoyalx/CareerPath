@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(243, 240, 234) !important;
+  background-color: rgb(243, 240, 234) !important;
 }
 
 #about {
-    padding-left: 60px;
-    padding-right: 20px;
-    position: relative;
-    padding-top: 1px;
-    max-height: max-content;
-    text-align: justify;
+  padding-left: 60px;
+  padding-right: 20px;
+  position: relative;
+  padding-top: 1px;
+  max-height: max-content;
+  text-align: justify;
 }
 
 .image-container {
-    vertical-align: auto;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    margin-left: 50px;
+  vertical-align: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-left: 50px;
 }
 
 /* .about-img {
@@ -30,140 +30,156 @@ body {
 } */
 
 .img-fluid {
-    height: 85%;
-    width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 85%;
+}
+
+@media only screen and (max-width: 991px) {
+  .img-fluid {
+    height: auto;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-fluid {
+    height: auto;
+    width: 82%;
+  }
 }
 
 .about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading {
-    font-family: 'Dancing Script', cursive;
-    color: #af1d70be;
-    text-align: center;
-    font-size: 3.5rem;
+  font-family: "Dancing Script", cursive;
+  color: #af1d70be;
+  text-align: center;
+  font-size: 3.5rem;
 }
 
 .about-heading {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .about-para {
-    font-family: "Alegreya Sans", sans-serif;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 50px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
 }
 
 #contri-heading {
-    padding-bottom: 0;
-    text-align: center;
-    color: #af1d70be;
+  padding-bottom: 0;
+  text-align: center;
+  color: #af1d70be;
 }
 
 #contri {
-    padding-top: 0;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  padding-top: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contributor {
-    position: relative;
-    margin: 40px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  position: relative;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contributor .card {
-    position: relative;
-    width: 250px;
-    height: 350px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    box-shadow: 0 15px 35px rgb(0, 0, 0, 0.2);
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(10px);
-
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 15px 35px rgb(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
 }
 
 .contributor .card .content {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transform: translateY(-20px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-20px);
 }
 
 .contributor .card .content .img-bx {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 9px solid #cfa3bcbe;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 9px solid #cfa3bcbe;
 }
 
 .contributor .card .content .img-bx img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 .contributor .card .content .content-bx h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: center;
-    margin: 20px 0 10px;
-    line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
 }
 
 .contributor .card .sci {
-    position: absolute;
-    bottom: 50px;
-    display: flex;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
 }
 
 .contributor .card .sci li {
-    list-style: none;
-    margin: 0 10px;
-    transform: translateY(40px);
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
 }
 
 .contributor .card .sci li a {
-    color: black;
-    font-size: 24px;
+  color: black;
+  font-size: 24px;
 }
 
 #linkedin:hover {
-    color: #0E76A8;
+  color: #0e76a8;
 }
 
 #github:hover {
-    color: #171515;
+  color: #171515;
 }
 
 #twitter:hover {
-    color: #1DA1F2;
+  color: #1da1f2;
 }
